@@ -1,0 +1,64 @@
+/* 全体 */
+* {
+  box-sizing: border-box;
+}
+
+/* この下から記述 */
+body, #wrapper {
+  display: flex;
+  background-color: linen;
+}
+.taitoru{
+  padding-top: 30px;
+  font-size: 32px;
+  color: orange;
+  font-weight: bold;
+  text-align: center;
+}
+
+.form-box {
+  margin-top: 50px;
+}
+
+
+.kekka {
+  display: block;
+  margin: 0 auto;
+  padding: 1.5em 1.5em;
+  color: darkblue;
+  background-color: lightgreen;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  border-radius: 10px;
+}
+.kekka:hover{
+  opacity: 0.6;
+}
+
+.taitoru2{
+  padding-top: 50px;
+  margin-bottom: 50px;
+  font-size: 20px;
+
+}
+.kekkabox{
+  position: absolute;
+    margin: auto;
+}
+.result-word {
+  font-size: 50px;
+  color: red;
+  font-weight: bold;
+  margin-bottom: 50px;
+  margin:0 auto;
+
+}
+.modoru{
+  font-size: 15px;
+  color: blue;
+  padding-top: 50px;
+margin-bottom: 50px;
+}
+
